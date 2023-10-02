@@ -111,6 +111,26 @@ footer .container {
 
 /*fin del footer*/
 
+/*inicio hero*/
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(../images/fondo.png);
+    background-size: cover;
+    padding: 1.25rem;
+    /*para que la imagen se expanda al 100% del contenedor background-size:cover*/
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.4em;
+}
+
+/*fin hero*/
 
 
 /*Mediaquerys*/
@@ -144,6 +164,10 @@ footer .container {
     header nav.container .menu a {
         padding: 0rem calc(var(--space) *1.25) 0 0;
 
+    }
+
+    .hero h1 {
+        max-width: 43.75rem;
     }
 
 }
