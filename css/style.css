@@ -63,7 +63,7 @@ header .container {
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 1.75em;
-    padding: 0em 1.25em;
+    padding: 0rem 1.25rem;
     /*evitar utilizar width mejor utilizar padding para los anchos maximos*/
     /*para darle a los elementos el tamaño que quiera flex-wrap*/
 }
@@ -102,6 +102,14 @@ header nav.container .menu .active {
 }
 
 /*Fin del header*/
+
+/*inicio del footer*/
+footer .container {
+    padding: 0rem 1.25rem;
+    color: var(--secondarycolor);
+}
+
+/*fin del footer*/
 
 
 
@@ -143,7 +151,11 @@ header nav.container .menu .active {
 @media(min-width: 87.5em) {
     header .container {
 
-        padding: 0em;
+        padding: 0rem;
 
+    }
+
+    footer .container {
+        padding: 0rem;
     }
 }
