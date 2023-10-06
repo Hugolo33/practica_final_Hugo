@@ -114,8 +114,14 @@ div h2 {
     font-weight: 500;
 }
 
+nav.images2 {
+    display: flex;
+    padding: 20px;
+    gap: var(--space)
+}
 
-/*Inicio About*/
+
+/*Fin About*/
 
 
 /*inicio del footer*/
